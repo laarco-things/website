@@ -1,0 +1,182 @@
+body {
+	
+	font-family: Lato;
+
+	margin: 0;
+}
+body.main {
+	color: white;
+	background-color: #1a1a1a;
+}
+
+.hide-y-overflow {
+    overflow-y:hidden;
+}
+
+header {
+}
+
+html, section, body {
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
+	width: 60%;
+	margin: auto;
+	margin-top: 80px;
+}
+
+h1 {
+	text-align: center;	
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+.laarco {
+	font-size: 36px;
+	width: 40%;
+	display: block;
+	margin: 80px auto;
+	font-weight: 300;
+}
+
+.gone {
+	display: none;
+}
+
+
+/*
+@-webkit-keyframes machineAnim {
+	from {
+	-webkit-transform: translate(0px);
+	}
+	to {
+	-webkit-transform: translate(-100px);
+	}
+}*/
+
+
+/* Standard syntax */
+@keyframes machineAnim {
+
+	from {
+		top: 2000px;
+		
+	}
+	to {
+		top: 0px;
+	}
+}
+
+
+@media screen and (max-width: 1080px) and (orientation:portrait) {
+
+	body {
+		padding: 0 36px;
+	}
+
+	.laarco {
+		width: 100%;
+		margin: 0;
+	}
+	.img400, .img800 {
+		width: 100% !important;
+	}
+	.text {
+		width: 100% !important;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+	.video {
+		margin: 0px auto 0px auto !important; 
+	}
+}
+
+
+.white {
+	width: 100%;
+	background-color: #e5e5e5;
+	color: #1a1a1a;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.machines {
+	display: block;
+
+    -webkit-animation-name: machineAnim; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: machineAnim;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+
+.maintitle {
+    -webkit-animation-name: maintitle-anim; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: maintitle-anim;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    overflow: hidden;
+
+}
+
+.center {
+	margin: auto;
+	display: block;	
+}
+
+/* Standard syntax */
+@keyframes maintitle-anim	 {
+
+	from {
+		height: 100%;
+		
+	}
+	to {
+		height: 0%;
+	}
+}
+
+img{
+	margin: 40px;
+	display: block;
+	margin: 40px auto 40px auto; 
+
+}
+
+.text {
+	width: 400px;
+	margin: 40px auto 40px auto; 
+	display: block;
+}
+
+.video {
+	width: 800px;
+	background-color: black;
+	text-align: center;
+	margin: 40px auto 40px auto; 
+}
+
+.img400 {
+	width: 400px;
+}
+
+.img800 {
+	width: 800px;
+}
+
+img {
+	max-width: 100%;}
+
+.smalltext {
+	font-size: 0.8em;
+	font-weight: 200;
+}
