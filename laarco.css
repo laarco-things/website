@@ -48,7 +48,7 @@ a {
 	font-size: 36px;
 	width: 40%;
 	display: block;
-	margin: 80px auto 50px auto;
+	margin: 0px auto 0px auto;
 	font-weight: 300;
 }
 
@@ -224,4 +224,18 @@ figure {
 
 .whitewp a {
 	color: #545454;
+}
+.header {
+	margin: 1px auto;
+	width: 800px;
+	text-align: right;
+}
+
+.header .item {
+	margin: 5px;
+	display: inline;
+}
+
+.header .item img {
+	height: 24px;
 }
