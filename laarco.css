@@ -39,7 +39,7 @@ h1 {
 }
 
 
-a {
+body.main a {
 	font-weight: bold;
 	color: #f1f1f1;
 
@@ -238,4 +238,45 @@ figure {
 
 .header .item img {
 	height: 24px;
+}
+
+body.faq div#faqwrapper{
+	width: 60%;
+	margin: auto;
+}
+body.faq h2, body.faq h1, body.faq h3 {
+	width: 100%
+}
+
+body.faq a {
+	color: black;
+}
+body.faq img {
+	max-width: 100%;
+	margin: auto;
+}
+p.caption {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#faqwrapper .header {
+	background-color: black;
+}
+
+.header .headerfaq {
+	display: inline;
+	float: left;
+	margin-top: 4px;
+	font-size: 0.8em;
+	color: white;
+	margin-left: 10px;
+}
+.headerfaq a {
+	color: white !important;
+	text-decoration: none;
+}
+
+.headerfaq a:visited {
+	color: white;
 }
