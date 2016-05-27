@@ -238,6 +238,7 @@ figure {
 
 .header .item img {
 	height: 24px;
+	display: inline !important;
 }
 
 body.faq div#faqwrapper{
@@ -251,9 +252,10 @@ body.faq h2, body.faq h1, body.faq h3 {
 body.faq a {
 	color: black;
 }
-body.faq img {
+div#faqwrapper img {
 	max-width: 100%;
 	margin: auto;
+	display: block;
 }
 p.caption {
 	font-size: 0.8em;
